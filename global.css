@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-quantum-deep text-white overflow-x-hidden; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.glow-cyan { box-shadow: 0 0 20px rgba(34, 211, 238, 0.3); }
